@@ -1,0 +1,41 @@
+ul.SlidingPuzzle{
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.SlidingPuzzleFigure{
+	max-height:230px;
+	max-width:230px;
+	margin: 10px;
+	background: black;
+	border-radius:5px;
+	}
+
+  .SlidingPuzzle{
+    padding: 9px 9px;
+    height: 230px;
+    width: 230px;
+		}
+
+    .Tile{
+      float: left;
+      border-top:6px solid #CCCCCC;
+      border-left:6px solid #CCCCCC;
+      border-right:6px solid #787878;
+      border-bottom:6px solid #787878;
+      background: #fff;
+      width: 58px;
+      height: 49px;
+      font-size: 30px;
+      text-align: center;
+      padding-top: 9px;
+    	}
+
+  figcaption{
+    font-size: 20px;
+		font-family: sans-serif;
+    font-style: italic;
+    position: relative;
+    text-indent: 20px;
+  }
+}
